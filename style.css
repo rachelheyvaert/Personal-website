@@ -1,14 +1,13 @@
 .body {
     background-color: #191970;
 }
-}
 #intro {
     position: relative;
     font-size: 40px;
     padding-left: 15%;
     padding-top: 15%;
     color: greenyellow;
-    
+
 }
 #name {
     position: relative;
@@ -23,4 +22,11 @@
     padding-right: 20%;
     padding-left: 20%;
     color: #FFB6C1;
+}
+
+.about-me {
+    color: greenyellow;
+}
+#content {
+    color: white;
 }
