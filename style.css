@@ -1,5 +1,13 @@
 .body {
     background-color: #191970;
+    font-family: Playfair Display;
+    padding-left: 50pt;
+    padding-bottom: 10pt;
+    padding-right: 50pt;
+}
+h2#title {
+    color: white;
+    
 }
 #intro {
     position: relative;
@@ -22,13 +30,24 @@
     padding-right: 20%;
     padding-left: 20%;
     color: #FFB6C1;
+    margin-bottom: 150px;
 }
 
 .about-me {
+    position: relative;
     color: greenyellow;
+    border: 5px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 2px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 50px;
 }
-#content {
-    color: white;
+
+    p#content {
+    color: coral;
 }
 .projects {
     color: greenyellow;
@@ -39,4 +58,8 @@
 
 .contact-me {
     color: greenyellow;
+}
+img {
+image-rendering: auto;
+border-radius: 50%;
 }
