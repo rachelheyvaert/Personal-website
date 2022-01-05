@@ -15,7 +15,6 @@ h2#title {
     padding-left: 15%;
     padding-top: 15%;
     color: greenyellow;
-
 }
 #name {
     position: relative;
@@ -43,10 +42,23 @@ h2#title {
     border-radius: 2px;
     text-align: center;
     padding: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+}
+.fa {
+    padding: 10px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 50%;
+    background-color: coral;
+}
+.fa:hover {
+    opacity: 0.7;
 }
 
-    p#content {
+p#content {
     color: coral;
 }
 .projects {
@@ -61,5 +73,5 @@ h2#title {
 }
 img {
 image-rendering: auto;
-border-radius: 50%;
+
 }
