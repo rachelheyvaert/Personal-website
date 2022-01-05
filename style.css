@@ -5,6 +5,9 @@
     padding-bottom: 10pt;
     padding-right: 50pt;
 }
+html {
+    scroll-behavior: smooth;
+  }
 h2#title {
     color: white;
     
@@ -73,5 +76,5 @@ p#content {
 }
 img {
 image-rendering: auto;
-
+i
 }
